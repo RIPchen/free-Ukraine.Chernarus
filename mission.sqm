@@ -40,7 +40,9 @@ class Mission
 		"a3_soft_f_gamma_truckheavy",
 		"A3_Modules_F_Supports",
 		"A3_Modules_F_Sites",
-		"kae_sz_infantry"
+		"kae_sz_infantry",
+		"acre_sys_radio",
+		"A3_Weapons_F_Ammoboxes"
 	};
 	addOnsAuto[]=
 	{
@@ -77,7 +79,9 @@ class Mission
 		"A3_Structures_F_EPB_Civ_Garbage",
 		"A3_Soft_F_EPC_Truck_03",
 		"A3_Soft_F_TruckHeavy",
-		"a3_soft_f_gamma_truckheavy"
+		"a3_soft_f_gamma_truckheavy",
+		"acre_sys_radio",
+		"A3_Weapons_F_Ammoboxes"
 	};
 	randomSeed=15153595;
 	class Intel
@@ -1778,7 +1782,7 @@ class Mission
 				class Item0
 				{
 					position[]={13775.995,40.696342,13056.083};
-					azimut=182.23564;
+					azimut=182.23599;
 					id=66;
 					side="WEST";
 					vehicle="kae_USMC_2013_SL";
@@ -2034,7 +2038,7 @@ class Mission
 				class Item0
 				{
 					position[]={13770.086,41.186012,13056.386};
-					azimut=169.24574;
+					azimut=169.246;
 					id=79;
 					side="WEST";
 					vehicle="kae_USMC_2013_rifleman";
@@ -2049,7 +2053,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=108;
+		items=112;
 		class Item0
 		{
 			position[]={11845.221,158.9715,12804.637};
@@ -3116,6 +3120,50 @@ class Mission
 			vehicle="O_Heli_Light_02_F";
 			leader=1;
 			skill=0.60000002;
+		};
+		class Item108
+		{
+			position[]={13806.414,38.371471,13046.911};
+			azimut=89.138496;
+			id=188;
+			side="EMPTY";
+			vehicle="ACRE_RadioBox";
+			leader=1;
+			skill=0.60000002;
+			text="Handys";
+		};
+		class Item109
+		{
+			position[]={13806.453,38.559071,13044.041};
+			azimut=89.138496;
+			id=189;
+			side="EMPTY";
+			vehicle="Box_NATO_Ammo_F";
+			leader=1;
+			skill=0.60000002;
+			text="Wasserpistolen";
+		};
+		class Item110
+		{
+			position[]={13806.472,38.713562,13041.423};
+			azimut=89.138496;
+			id=190;
+			side="EMPTY";
+			vehicle="Box_NATO_Ammo_F";
+			leader=1;
+			skill=0.60000002;
+			text="zusatz";
+		};
+		class Item111
+		{
+			position[]={13804.585,38.729889,13044.009};
+			azimut=89.138496;
+			id=191;
+			side="EMPTY";
+			vehicle="Box_NATO_Ammo_F";
+			leader=1;
+			skill=0.60000002;
+			text="Wasserpistolen_1";
 		};
 	};
 	class Markers
