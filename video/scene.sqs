@@ -1,0 +1,44 @@
+titleCut ["","BLACK IN",15]
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal", "back"]
+showCinemaBorder false;
+
+;comment "23:26:20";
+_camera camPrepareTarget [-85459.60,-25475.90,-32907.67];
+_camera camPreparePos [4679.91,2561.88,91.21];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
+
+~1
+
+;comment "23:27:03";
+_camera camPrepareTarget heli2;
+_camera camPreparePos [4652.94,2615.10,58.77];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 27
+~27
+titlecut [" ","BLACK Out",5]
+~3
+titlecut [" ","BLACK in",3]
+
+;comment "23:35:54";
+_camera camPrepareTarget introb2;
+_camera camPreparePos [14741.18,8509.01,9.26];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
+
+~1
+
+10 fademusic 0;
+;comment "23:36:08";
+_camera camPrepareTarget [-73709.37,-37408.71,-8257.23];
+_camera camPreparePos [14739.58,8506.78,9.24];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 12
+
+~5
+titlecut [" ","BLACK Out",6]
+
+
+
+

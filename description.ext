@@ -1,0 +1,42 @@
+author = "E12 RIPchen"; 
+onLoadName = "Free Ukraine";
+onLoadMission = "Platzhalter"; // Description
+loadScreen = "loadScreen.jpg"; 
+respawn = 3;
+respawndelay = 5;
+disabledAI = 1;
+RespawnDialog = 1;
+
+class Header
+{
+	gameType=Coop;
+	minPlayers=11;
+	maxPlayers=11;
+};
+
+class Params
+{
+	class HeadlessClient
+	{
+		title = "Headless Client";
+		values[]= {0,1};
+		texts[] = {"OFF","ON"};
+		default = 0;
+	};
+};
+class CfgMusic
+{
+tracks[] = {song};
+
+class song
+{
+name = "song";
+sound[] = {\musik\song.ogg, db+15, 1.0};
+};
+};
+
+
+
+
+
+
