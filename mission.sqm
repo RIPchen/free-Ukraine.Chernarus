@@ -2648,7 +2648,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={13153.778,5.8640513,10696.894};
+					position[]={13373.798,49.683533,11800.224};
 					class args
 					{
 						items=3;
@@ -4409,123 +4409,8 @@ class Mission
 	};
 	class Sensors
 	{
-		items=24;
+		items=17;
 		class Item0
-		{
-			position[]={5837.9604,260.68259,13562.406};
-			a=100;
-			b=100;
-			angle=0.121263;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			text="pat";
-			expCond="true";
-			expActiv="nul = [""pat"",2,100,[true,false],[false,false,false],false,[15,0],[0,0],0.4,nil,nil,nil] execVM ""LV\militarize.sqf"";";
-			class Effects
-			{
-			};
-		};
-		class Item1
-		{
-			position[]={12353.53,158.9604,12624.856};
-			a=200;
-			b=600;
-			angle=78.869904;
-			rectangular=1;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			name="p1";
-			expCond="time > 1 && !isNil ""HCPresent"" && !isNil ""HCName""";
-			expActiv="fun=[getPos p1,[0.3,0.4],4,600] spawn fnc_spawnHCGroup;";
-			class Effects
-			{
-			};
-		};
-		class Item2
-		{
-			position[]={5649.2612,281.22366,13571.819};
-			a=0;
-			b=0;
-			angle=0.121263;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			text="attack1";
-			name="a1";
-			expCond="time > 1 && !isNil ""HCPresent"" && !isNil ""HCName"" ";
-			expActiv="fun=[getPos a1,[0.3,0.4],4,""ap1""] spawn fnc_spawnHCAttack;";
-			class Effects
-			{
-			};
-		};
-		class Item3
-		{
-			position[]={12939.267,209.4648,12757.231};
-			a=110;
-			angle=0.121263;
-			rectangular=1;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			name="p2";
-			expCond="time > 1 && !isNil ""HCPresent"" && !isNil ""HCName""";
-			expActiv="fun=[getPos p2,[0.4,0.4],4,150] spawn fnc_spawnHCGroup;";
-			class Effects
-			{
-			};
-		};
-		class Item4
-		{
-			position[]={12935.879,209.37691,12757.001};
-			a=40;
-			b=40;
-			angle=0.121263;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			text="pat";
-			expCond="true";
-			expActiv="nul = [""base"",2,40,[true,false],[false,false,false],false,[8,0],[3,0],0.4,nil,nil,nil] execVM ""LV\militarize.sqf"";";
-			class Effects
-			{
-			};
-		};
-		class Item5
-		{
-			position[]={12586.938,178.56206,12677.663};
-			a=400;
-			b=100;
-			angle=171.705;
-			rectangular=1;
-			activationBy="LOGIC";
-			interruptable=1;
-			age="UNKNOWN";
-			text="attack2";
-			name="a2";
-			expCond="time > 1 && !isNil ""HCPresent"" && !isNil ""HCName"" && (triggeractivated gegenangriff)";
-			expActiv="fun=[getPos a2,[0.3,0.4],4,""ap2""] spawn fnc_spawnHCAttack;";
-			class Effects
-			{
-			};
-		};
-		class Item6
-		{
-			position[]={12886.187,208.92964,12750.069};
-			a=450;
-			b=450;
-			activationBy="WEST";
-			activationType="EAST D";
-			interruptable=1;
-			age="UNKNOWN";
-			text="gegenangriff";
-			name="gegenangriff";
-			class Effects
-			{
-			};
-		};
-		class Item7
 		{
 			position[]={12938.655,210.52773,12778.953};
 			activationBy="WEST";
@@ -4539,7 +4424,7 @@ class Mission
 			synchronizations[]={6};
 			syncId=11;
 		};
-		class Item8
+		class Item1
 		{
 			position[]={13261.033,28.137735,13757.811};
 			a=20;
@@ -4557,7 +4442,7 @@ class Mission
 			{
 			};
 		};
-		class Item9
+		class Item2
 		{
 			position[]={13261.111,27.940746,13758.39};
 			a=20;
@@ -4574,7 +4459,7 @@ class Mission
 			{
 			};
 		};
-		class Item10
+		class Item3
 		{
 			position[]={13261.114,27.75103,13758.977};
 			a=20;
@@ -4592,7 +4477,7 @@ class Mission
 			{
 			};
 		};
-		class Item11
+		class Item4
 		{
 			position[]={13262.388,27.622736,13758.858};
 			a=20;
@@ -4610,7 +4495,7 @@ class Mission
 				track="song";
 			};
 		};
-		class Item12
+		class Item5
 		{
 			position[]={13262.46,27.886539,13758.012};
 			a=20;
@@ -4624,7 +4509,7 @@ class Mission
 			{
 			};
 		};
-		class Item13
+		class Item6
 		{
 			position[]={13263.774,27.569826,13758.461};
 			a=20;
@@ -4642,7 +4527,7 @@ class Mission
 			{
 			};
 		};
-		class Item14
+		class Item7
 		{
 			position[]={13261.117,27.568108,13759.542};
 			a=20;
@@ -4660,7 +4545,7 @@ class Mission
 			{
 			};
 		};
-		class Item15
+		class Item8
 		{
 			position[]={13809.949,39.75211,13012.412};
 			a=20;
@@ -4677,7 +4562,7 @@ class Mission
 				title="Bravo an alle Alpha teile. Die Artillerie steht in 10mic. Bravo Ende";
 			};
 		};
-		class Item16
+		class Item9
 		{
 			position[]={5595.4819,5.9000001,2086.3928};
 			a=100;
@@ -4692,7 +4577,7 @@ class Mission
 			{
 			};
 		};
-		class Item17
+		class Item10
 		{
 			position[]={5393.8813,-0.019690135,1814.1151};
 			a=100;
@@ -4707,7 +4592,7 @@ class Mission
 			{
 			};
 		};
-		class Item18
+		class Item11
 		{
 			position[]={13868.608,-0.82199395,8433.042};
 			a=200;
@@ -4722,7 +4607,7 @@ class Mission
 			{
 			};
 		};
-		class Item19
+		class Item12
 		{
 			position[]={13865.991,-0.11556852,8436.2285};
 			a=200;
@@ -4734,7 +4619,7 @@ class Mission
 			{
 			};
 		};
-		class Item20
+		class Item13
 		{
 			position[]={6884.2871,394.02127,11449.086};
 			a=300;
@@ -4755,7 +4640,7 @@ class Mission
 			synchronizations[]={7};
 			syncId=12;
 		};
-		class Item21
+		class Item14
 		{
 			position[]={12925.566,209.84926,12767.815};
 			activationBy="WEST";
@@ -4772,7 +4657,7 @@ class Mission
 			synchronizations[]={8};
 			syncId=13;
 		};
-		class Item22
+		class Item15
 		{
 			position[]={11745.141,159.07042,12661.795};
 			a=300;
@@ -4792,7 +4677,7 @@ class Mission
 			synchronizations[]={9};
 			syncId=14;
 		};
-		class Item23
+		class Item16
 		{
 			position[]={12044.891,158.8,12673.014};
 			activationBy="WEST";
