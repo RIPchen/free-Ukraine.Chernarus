@@ -1,7 +1,7 @@
 author = "E12 RIPchen"; 
 onLoadName = "Free Ukraine";
 onLoadMission = "My first Arma 3 Mission"; // Description
-loadScreen = "loadScreen.jpg"; 
+loadScreen = "werbung\loadScreen.jpg"; 
 respawn = 3;
 respawndelay = 5;
 disabledAI = 1;
