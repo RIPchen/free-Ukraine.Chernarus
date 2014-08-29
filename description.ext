@@ -1,6 +1,6 @@
 author = "E12 RIPchen"; 
 onLoadName = "Free Ukraine";
-onLoadMission = "Platzhalter"; // Description
+onLoadMission = "My first Arma 3 Mission"; // Description
 loadScreen = "loadScreen.jpg"; 
 respawn = 3;
 respawndelay = 5;
@@ -10,8 +10,8 @@ RespawnDialog = 1;
 class Header
 {
 	gameType=Coop;
-	minPlayers=11;
-	maxPlayers=11;
+	minPlayers=10;
+	maxPlayers=15;
 };
 
 class Params
