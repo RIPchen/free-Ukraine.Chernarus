@@ -15,8 +15,8 @@ _camera camCommitPrepared 0
 _camera camPrepareTarget heli2;
 _camera camPreparePos [4652.94,2615.10,58.77];
 _camera camPrepareFOV 0.700;
-_camera camCommitPrepared 24
-~25
+_camera camCommitPrepared 27
+~27
 titlecut [" ","BLACK Out",6]
 ~3
 titlecut [" ","BLACK in",4]
@@ -27,7 +27,7 @@ _camera camPreparePos [14741.18,8509.01,9.26];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~6
+~8
 
 titlecut [" ","BLACK out",8]
 ~4
@@ -38,7 +38,7 @@ _camera camPreparePos [12852.21,8748.06,30.66];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~23
+~25
 
 titlecut [" ","BLACK out",8]
 ~4
@@ -49,22 +49,16 @@ _camera camPreparePos [4145.93,10894.29,69.06];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~1
+~29
 
 ;comment "14:05:33";
 _camera camPrepareTarget [62920.16,-58403.96,-43700.60];
 _camera camPreparePos [4776.14,9898.02,69.06];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 28
-32 fademusic 0;
-~20
 
-titlecut [" ","BLACK out",4]
-~3
-_camera cameraeffect ["terminate","back"];
-killchicken=true;
-publicvariable "killchicken";
-camdestroy _camera;
-exit
+titlecut [" ","BLACK Out",6]
+
+
 
 

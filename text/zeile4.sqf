@@ -59,7 +59,7 @@ Bis_printText =
         }
         else
         {
-            _cursorBlinks = 44;
+            _cursorBlinks = 15;
         };
 
         for "_i" from 1 to _cursorBlinks do
