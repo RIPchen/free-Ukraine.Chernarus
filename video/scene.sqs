@@ -38,7 +38,7 @@ _camera camPreparePos [12852.21,8748.06,30.66];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~23
+~22
 
 titlecut [" ","BLACK out",8]
 ~4
@@ -59,8 +59,8 @@ _camera camCommitPrepared 28
 32 fademusic 0;
 ~20
 
-titlecut [" ","BLACK out",4]
-~2
+titlecut [" ","BLACK out",8]
+~4
 titlecut [" ","BLACK in",1]
 _camera cameraeffect ["terminate","back"];
 killchicken=true;

@@ -159,7 +159,7 @@ class Mission
 		month=8;
 		day=5;
 		hour=4;
-		minute=45;
+		minute=35;
 		startFogDecay=0.0049999999;
 		forecastFogDecay=0.0049999999;
 	};
@@ -174,7 +174,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={13269.995,25.722723,13760.877};
+					position[]={13287.58,21.245604,13763.753};
 					azimut=70.069702;
 					special="NONE";
 					id=0;
@@ -6780,7 +6780,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={13261.033,28.137735,13757.811};
+			position[]={13282.538,24.420813,13758.52};
 			a=0;
 			b=0;
 			timeoutMin=7;
@@ -6798,7 +6798,7 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={13261.111,27.940746,13758.39};
+			position[]={13282.616,24.172302,13759.099};
 			a=0;
 			b=0;
 			timeoutMin=15;
@@ -6815,7 +6815,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={13261.114,27.75103,13758.977};
+			position[]={13282.619,23.934711,13759.686};
 			a=0;
 			b=0;
 			repeating=1;
@@ -6834,7 +6834,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={13262.388,27.622736,13758.858};
+			position[]={13283.893,23.7498,13759.567};
 			a=0;
 			b=0;
 			timeoutMin=1;
@@ -6852,7 +6852,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={13262.46,27.886539,13758.012};
+			position[]={13283.965,24.07872,13758.721};
 			a=0;
 			b=0;
 			interruptable=1;
@@ -6866,7 +6866,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={13263.774,27.569826,13758.461};
+			position[]={13285.279,23.657497,13759.17};
 			a=0;
 			b=0;
 			activationBy="ANY";
@@ -6881,7 +6881,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={13261.117,27.568108,13759.542};
+			position[]={13282.622,23.705999,13760.251};
 			a=0;
 			b=0;
 			timeoutMin=38;
