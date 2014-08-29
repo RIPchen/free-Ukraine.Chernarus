@@ -80,6 +80,6 @@ Bis_printText =
 };
 
 [
-    ["Get your Beta Key","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '1.0'>%1</t>"],
-    ["@ Echo12.de","<t align = 'center' color='#6E6E6E' shadow = '1' size = '1.0'>%1</t><br/>"]
+    ["Thank you for","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '1.0'>%1</t>"],
+    ["your participation","<t align = 'center' color='#6E6E6E' shadow = '1' size = '1.0'>%1</t><br/>"]
 ] spawn Bis_printText;

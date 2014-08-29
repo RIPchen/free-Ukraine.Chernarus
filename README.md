@@ -3,7 +3,7 @@ free-Ukraine.Chernarus
 
 First A3 Mission
 
-Beta stage 2 of 4
+Beta stage 3 of 4
 works fine, 1 script error (issue created) to less enemy's to play
 
 ===Modstring===
