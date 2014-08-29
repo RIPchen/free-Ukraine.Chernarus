@@ -174,7 +174,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={13285.194,17.643181,13772.913};
+					position[]={13269.995,25.722723,13760.877};
 					azimut=70.069702;
 					special="NONE";
 					id=0;
@@ -6781,9 +6781,8 @@ class Mission
 		class Item1
 		{
 			position[]={13261.033,28.137735,13757.811};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
 			timeoutMin=7;
 			timeoutMid=7;
 			timeoutMax=7;
@@ -6791,6 +6790,7 @@ class Mission
 			age="UNKNOWN";
 			text="ruft zeile1";
 			name="zeile1";
+			expCond="true";
 			expActiv="null = [] execVM ""text\zeile1.sqf""";
 			class Effects
 			{
@@ -6799,15 +6799,15 @@ class Mission
 		class Item2
 		{
 			position[]={13261.111,27.940746,13758.39};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
 			timeoutMin=15;
 			timeoutMid=15;
 			timeoutMax=15;
 			age="UNKNOWN";
 			text="ruft zeile2 auf";
 			name="zeile2";
+			expCond="true";
 			expActiv="null = [] execVM ""text\zeile2.sqf""";
 			class Effects
 			{
@@ -6816,9 +6816,9 @@ class Mission
 		class Item3
 		{
 			position[]={13261.114,27.75103,13758.977};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
+			repeating=1;
 			timeoutMin=24;
 			timeoutMid=24;
 			timeoutMax=24;
@@ -6826,6 +6826,7 @@ class Mission
 			age="UNKNOWN";
 			text="zeile3 aufruf";
 			name="zeile3";
+			expCond="true";
 			expActiv="null = [] execVM ""text\zeile3.sqf""";
 			class Effects
 			{
@@ -6834,9 +6835,8 @@ class Mission
 		class Item4
 		{
 			position[]={13262.388,27.622736,13758.858};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
 			timeoutMin=1;
 			timeoutMid=1;
 			timeoutMax=1;
@@ -6844,6 +6844,7 @@ class Mission
 			age="UNKNOWN";
 			text="music";
 			name="musicplayer";
+			expCond="true";
 			class Effects
 			{
 				track="song";
@@ -6852,12 +6853,12 @@ class Mission
 		class Item5
 		{
 			position[]={13262.46,27.886539,13758.012};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
 			interruptable=1;
 			age="UNKNOWN";
 			name="videoplayer";
+			expCond="true";
 			expActiv="player exec ""Video\scene.sqs"";";
 			class Effects
 			{
@@ -6866,8 +6867,8 @@ class Mission
 		class Item6
 		{
 			position[]={13263.774,27.569826,13758.461};
-			a=20;
-			b=20;
+			a=0;
+			b=0;
 			activationBy="ANY";
 			interruptable=1;
 			age="UNKNOWN";
@@ -6881,9 +6882,8 @@ class Mission
 		class Item7
 		{
 			position[]={13261.117,27.568108,13759.542};
-			a=20;
-			b=20;
-			activationBy="ANY";
+			a=0;
+			b=0;
 			timeoutMin=38;
 			timeoutMid=38;
 			timeoutMax=38;
@@ -6891,6 +6891,7 @@ class Mission
 			age="UNKNOWN";
 			text="aufruf zeile 4";
 			name="zeile4";
+			expCond="true";
 			expActiv="null = [] execVM ""text\zeile4.sqf""";
 			class Effects
 			{
