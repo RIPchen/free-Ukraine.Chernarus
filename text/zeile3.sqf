@@ -82,5 +82,5 @@ Bis_printText =
 [
     ["Free","<t align = 'center' color= '#0000FF' shadow = '1' size = '2.0'>%1</t>"],
     ["Ukraine","<t align = 'center' color='#FFFF00' shadow = '1' size = '2.0'>%1</t><br/>"],
-	["Beta Event","<t align = 'center' color='#6E6E6E' shadow = '1' size = '0.5'>%1</t><br/>"]
+	["Beta","<t align = 'center' color='#6E6E6E' shadow = '1' size = '0.5'>%1</t><br/>"]
 ] spawn Bis_printText;
