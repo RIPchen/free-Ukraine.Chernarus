@@ -10,7 +10,7 @@ _wp1 setWaypointBehaviour "AWARE";
 _wp1 setWaypointFormation "NO CHANGE";
 
 _crew2 = creategroup EAST;
-_group = [getMarkerPos "tyc1",0, "O_Soldier_F", _crew2] call Bis_fnc_spawnGroup;
+_group=[getMarkerPos "tyc1", EAST, "kae_SZ_2013_general","kae_SZ_2013_rifle_l",[],[],0,4,[],[]] call BIS_fnc_spawnGroup;
 
 _wp1 = _crew2 addWaypoint [getmarkerpos "tyc", 0];
 _wp1 setWaypointType "GETIN";
