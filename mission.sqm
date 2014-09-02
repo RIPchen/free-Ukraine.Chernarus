@@ -7,7 +7,6 @@ class Mission
 		"e12_amf_tracking",
 		"agm_medical",
 		"agm_respawn",
-		"agm_map",
 		"agm_interaction",
 		"SUD_RUSSIANS",
 		"A3_Characters_F_Civil",
@@ -70,7 +69,8 @@ class Mission
 		"rav_lifter_a3",
 		"A3_Structures_F_Mil_Helipads",
 		"hafm_arma2_helis",
-		"A3_Modules_F_Curator_Lightning"
+		"A3_Modules_F_Curator_Lightning",
+		"A3_Modules_F_Multiplayer"
 	};
 	addOnsAuto[]=
 	{
@@ -79,7 +79,7 @@ class Mission
 		"agm_interaction",
 		"agm_medical",
 		"agm_respawn",
-		"agm_map",
+		"e12_amf_tracking",
 		"A3_Characters_F_OPFOR",
 		"hafm_arma2_helis",
 		"A3_Soft_F_MRAP_01",
@@ -97,6 +97,7 @@ class Mission
 		"A3_Air_F_Beta_Heli_Attack_02",
 		"rav_lifter_a3",
 		"A3_Modules_F_Curator_Lightning",
+		"A3_Modules_F_Multiplayer",
 		"kae_sz_vehicles",
 		"camisc3",
 		"CABuildings",
@@ -325,20 +326,10 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={13289.686,21.940588,13761.176};
-					class args
-					{
-						items=1;
-						class Item0
-						{
-							value="1";
-							parentCls="AGM_ModuleBlueForceTracking";
-							typeName="Interval";
-						};
-					};
+					position[]={13287.902,23.064722,13759.354};
 					id=4;
 					side="LOGIC";
-					vehicle="AGM_ModuleBlueForceTracking";
+					vehicle="E12_AMF_TRACKING_Logic";
 					lock="UNLOCKED";
 					skill=0.60000002;
 				};
@@ -970,10 +961,12 @@ class Mission
 					id=30;
 					side="WEST";
 					vehicle="kae_USMC_2013_SL";
+					player="PLAY CDG";
 					leader=1;
 					rank="COLONEL";
 					skill=0.60000002;
 					text="Squadleader";
+					init="ret=[group this,[""LEAD"",""sl"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					syncId=2;
 					synchronizations[]={0};
 				};
@@ -996,7 +989,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="Teamleader_bravo";
-					init="grpW2 = group this; {_x moveincargo helo} foreach units grpW2";
+					init="grpW2 = group this; {_x moveincargo helo} foreach units grpW2; ret=[group this,[""BRAVO"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 				};
 				class Item1
 				{
@@ -2194,7 +2187,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="Teamleader_charlie";
-					init="grpW3 = group this; {_x moveincargo helo} foreach units grpW3";
+					init="grpW3 = group this; {_x moveincargo helo} foreach units grpW3; ret=[group this,[""CHARLIE"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 				};
 				class Item1
 				{
@@ -2241,12 +2234,12 @@ class Mission
 					id=72;
 					side="WEST";
 					vehicle="kae_USMC_2013_officer";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="Teamleader_alpha";
-					init="grpW1 = group this; {_x moveincargo helo} foreach units grpW1";
+					init="ret=[group this,[""ALPHA"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 				};
 				class Item1
 				{
@@ -2386,28 +2379,54 @@ class Mission
 		};
 		class Item50
 		{
-			side="EAST";
+			side="LOGIC";
 			class Vehicles
 			{
 				items=1;
 				class Item0
 				{
-					position[]={10476.983,114.3846,9960.2588};
-					azimut=37.062382;
+					position[]={13796.275,10.587462,13556.886};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="";
+							parentCls="ModuleRespawnPosition_F";
+							typeName="Name";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="ModuleRespawnPosition_F";
+							typeName="Type";
+						};
+						class Item2
+						{
+							value="1";
+							parentCls="ModuleRespawnPosition_F";
+							typeName="Side";
+						};
+						class Item3
+						{
+							value="2";
+							parentCls="ModuleRespawnPosition_F";
+							typeName="Marker";
+						};
+					};
 					id=78;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAYER COMMANDER";
+					side="LOGIC";
+					vehicle="ModuleRespawnPosition_F";
 					leader=1;
+					lock="UNLOCKED";
 					skill=0.60000002;
-					init="this moveinDriver fgh";
 				};
 			};
 		};
 	};
 	class Vehicles
 	{
-		items=274;
+		items=273;
 		class Item0
 		{
 			position[]={12924.471,209.68959,12765.15};
@@ -5081,17 +5100,6 @@ class Mission
 			skill=0.60000002;
 			text="LZ";
 		};
-		class Item273
-		{
-			position[]={10477.073,114.43243,9961.417};
-			azimut=-4.1756568;
-			id=352;
-			side="EMPTY";
-			vehicle="O_Quadbike_01_F";
-			leader=1;
-			skill=0.60000002;
-			text="fgh";
-		};
 	};
 	class Markers
 	{
@@ -5622,7 +5630,7 @@ class Mission
 			position[]={12198.688,26.76025,9962.6738};
 			a=600;
 			b=600;
-			activationBy="WEST";
+			activationBy="EAST";
 			interruptable=1;
 			age="UNKNOWN";
 			class Effects
