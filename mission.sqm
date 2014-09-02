@@ -2630,8 +2630,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6927.3887,393.52151,11377.922};
-					azimut=51.067001;
+					position[]={6919.3931,378.46521,11743.527};
+					azimut=14.964001;
 					id=94;
 					side="EAST";
 					vehicle="O_Soldier_F";
@@ -5640,7 +5640,7 @@ class Mission
 		};
 		class Item21
 		{
-			position[]={6931.8916,375.02756,11783.062};
+			position[]={6911.3452,367.66696,11834.967};
 			name="exf point";
 			text="exf point";
 			type="mil_marker";
@@ -5732,7 +5732,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=33;
+		items=39;
 		class Item0
 		{
 			position[]={12938.655,210.52773,12778.953};
@@ -6019,8 +6019,8 @@ class Mission
 		class Item18
 		{
 			position[]={6891.2197,394.34625,11440.289};
-			a=500;
-			b=500;
+			a=1000;
+			b=1000;
 			activationBy="WEST";
 			interruptable=1;
 			age="UNKNOWN";
@@ -6219,6 +6219,101 @@ class Mission
 			expActiv="nul = [""g1"",2,100,[true,false],[false,false,false],false,[20,0],[0,0],0.6,grp4,nil,nil] execVM ""LV\militarize.sqf"";";
 			class Effects
 			{
+			};
+		};
+		class Item33
+		{
+			position[]={6900.9507,369.68887,11805.964};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			timeoutMin=10;
+			timeoutMid=10;
+			timeoutMax=10;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""text\zeile5.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item34
+		{
+			position[]={6900.9238,369.62326,11806.343};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			timeoutMin=16;
+			timeoutMid=16;
+			timeoutMax=16;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""text\zeile6.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item35
+		{
+			position[]={6900.3535,369.564,11805.917};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			timeoutMin=30;
+			timeoutMid=30;
+			timeoutMax=30;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""text\zeile8.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item36
+		{
+			position[]={6900.3276,369.49838,11806.298};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			timeoutMin=23;
+			timeoutMid=23;
+			timeoutMax=23;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="null = [] execVM ""text\zeile7.sqf""";
+			class Effects
+			{
+			};
+		};
+		class Item37
+		{
+			position[]={6900.5894,369.44662,11806.994};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			timeoutMin=9;
+			timeoutMid=9;
+			timeoutMax=9;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="player exec ""Video\outro.sqs"";";
+			class Effects
+			{
+			};
+		};
+		class Item38
+		{
+			position[]={6899.2676,369.21204,11806.211};
+			a=500;
+			rectangular=1;
+			activationBy="EAST";
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+				track="LeadTrack04a_F";
+				titleType="TEXT";
+				title="Foxtrott an Alpha, Bravo, Charlie: wir Landen in 2mic. Foxtrott Ende";
 			};
 		};
 	};
