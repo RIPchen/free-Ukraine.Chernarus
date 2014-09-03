@@ -4,6 +4,7 @@ free-Ukraine.Chernarus
 First A3 Mission
 
 PRE Release NEWEST version 03.09.14
+(need tests on Server)
 works fine, no script errors 
 
 ===Modstring===
