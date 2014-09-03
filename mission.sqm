@@ -936,7 +936,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="Teamleader_bravo";
-					init="grpW2 = group this; {_x moveincargo helo} foreach units grpW2; ret=[group this,[""BRAVO"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
+					init="ret=[group this,[""BRAVO"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 				};
 				class Item1
 				{
@@ -2116,7 +2116,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="Teamleader_charlie";
-					init="grpW3 = group this; {_x moveincargo helo} foreach units grpW3; ret=[group this,[""CHARLIE"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
+					init="ret=[group this,[""CHARLIE"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 				};
 				class Item1
 				{
@@ -2334,7 +2334,6 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="x";
-					init="x flyinHeight 20";
 				};
 			};
 			class Waypoints
@@ -6020,6 +6019,8 @@ class Mission
 		class Item40
 		{
 			position[]={12894.741,123.24056,14620.302};
+			a=150;
+			b=150;
 			activationBy="WEST";
 			interruptable=1;
 			age="UNKNOWN";
