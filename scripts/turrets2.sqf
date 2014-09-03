@@ -83,3 +83,12 @@ _x setskill ["aimingShake",0.30];
 _x setskill ["aimingSpeed",0.30];
 }
 foreach units _crew6;
+
+_crew10 = creategroup EAST;
+_car = [getMarkerPos "gs",60, "O_Heli_Light_02_F", _crew10] call BIS_fnc_spawnVehicle;
+
+_wp1 = _crew10 addWaypoint [getmarkerpos "gsp", 0];
+_wp1 setWaypointType "DESTROY";
+_wp1 setWaypointSpeed "NORMAL";
+_wp1 setWaypointBehaviour "AWARE";
+_wp1 setWaypointFormation "NO CHANGE";

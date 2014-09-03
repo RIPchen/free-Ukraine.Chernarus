@@ -3,7 +3,7 @@ free-Ukraine.Chernarus
 
 First A3 Mission
 
-Beta stage 4 of 4 NEWEST version 02.09.14
+PRE Release NEWEST version 03.09.14
 works fine, no script errors 
 
 ===Modstring===
