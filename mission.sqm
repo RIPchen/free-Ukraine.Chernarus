@@ -68,7 +68,8 @@ class Mission
 		"rav_lifter_a3",
 		"hafm_arma2_helis",
 		"A3_Modules_F_Curator_Lightning",
-		"A3_Modules_F_Multiplayer"
+		"A3_Modules_F_Multiplayer",
+		"RDS_Tanks"
 	};
 	addOnsAuto[]=
 	{
@@ -95,6 +96,7 @@ class Mission
 		"rav_lifter_a3",
 		"A3_Modules_F_Curator_Lightning",
 		"A3_Modules_F_Multiplayer",
+		"RDS_Tanks",
 		"kae_sz_vehicles",
 		"camisc3",
 		"CABuildings",
@@ -2365,21 +2367,21 @@ class Mission
 		};
 		class Item49
 		{
-			side="EAST";
+			side="GUER";
 			class Vehicles
 			{
 				items=1;
 				class Item0
 				{
-					position[]={12726.782,5.9709558,9817.9004};
-					azimut=234.68097;
+					position[]={12776.304,6.7425838,10204.384};
+					azimut=130.299;
 					id=77;
-					side="EAST";
-					vehicle="O_Soldier_F";
-					player="PLAYER COMMANDER";
+					side="GUER";
+					vehicle="RDS_ZSU_AAF_04";
 					leader=1;
 					rank="MAJOR";
-					skill=0.60000002;
+					skill=0.22084936;
+					text="s1";
 				};
 			};
 		};
@@ -5435,7 +5437,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=41;
+		items=40;
 		class Item0
 		{
 			position[]={13282.538,24.420813,13758.52};
@@ -6027,18 +6029,6 @@ class Mission
 			a=300;
 			b=300;
 			activationBy="WEST";
-			interruptable=1;
-			age="UNKNOWN";
-			expActiv="ret = [] execVM ""scripts\boostpzf.sqf"";";
-			class Effects
-			{
-			};
-		};
-		class Item40
-		{
-			position[]={12732.173,5.9729395,9815.2949};
-			angle=327.31146;
-			activationBy="EAST";
 			interruptable=1;
 			age="UNKNOWN";
 			expActiv="ret = [] execVM ""scripts\boostpzf.sqf"";";
