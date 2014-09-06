@@ -3,7 +3,7 @@ enableSaving[false,false];
 
 setViewDistance 3000;
 
-e12_tools_settings_admins = ["Coati","Rickyfox"];
+e12_tools_settings_admins = ["Coati","Rickyfox", "Jackdas RIPchen"];
 
 // HC Client Code
 if(isNil "paramsArray") then{ paramsArray=[0,0,0]};
