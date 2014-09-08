@@ -28,7 +28,7 @@ _camera camPreparePos [14741.18,8509.01,9.26];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~6
+~4
 
 titlecut [" ","BLACK out",8]
 ~4
