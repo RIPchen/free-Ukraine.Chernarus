@@ -1,4 +1,5 @@
-titleCut ["","BLACK IN",15]
+titleCut ["","BLACK IN",10]
+
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal", "back"]
 showCinemaBorder false;

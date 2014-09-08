@@ -10,7 +10,7 @@ RespawnDialog = 1;
 class Header
 {
 	gameType=Coop;
-	minPlayers=10;
+	minPlayers=1;
 	maxPlayers=15;
 };
 
