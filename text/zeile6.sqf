@@ -80,5 +80,5 @@ Bis_printText =
 };
 
 [
-     ["RICKFOX, TRIGGER, SPIRIT","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '2.0'>%1</t>"]
+     ["RICKFOX, TRIGGER, SPIRIT, COATI, KERODAN","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '2.0'>%1</t>"]
 ] spawn Bis_printText;

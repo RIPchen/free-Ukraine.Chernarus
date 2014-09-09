@@ -80,6 +80,5 @@ Bis_printText =
 };
 
 [
-    ["Welcome to","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '2.0'>%1</t>"],
-    ["","<t align = 'center' color='#FFFFFF' shadow = '1' size = '1.0'>%1</t><br/>"]
+    ["Coop 14","<t align = 'center' color= '#6E6E6E' shadow = '1' size = '2.0'>%1</t>"]
 ] spawn Bis_printText;

@@ -1,4 +1,0 @@
-titleCut ["","BLACK IN",99999]
-_camera = "camera" camcreate [0,0,0]
-_camera cameraeffect ["internal", "back"]
-showCinemaBorder false;
